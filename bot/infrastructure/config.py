@@ -18,7 +18,7 @@ env.read_env()
 
 
 BOT_TOKEN = env.str("BOT_TOKEN")
-WHITE_LIST = env.list("WHITE_LIST", subcast=int, default=[])
+WHITE_LIST = ["magoxdd", "Rider87"]
 API_URL = env.str("API_URL")
 
 API_TOKEN = asyncio.run(get_api_token(env.str("SECRET_KEY")))
