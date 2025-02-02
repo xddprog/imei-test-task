@@ -1,0 +1,6 @@
+fastapi
+environs
+aiohttp
+sqlalchemy
+asyncpg
+greenlet
